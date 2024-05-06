@@ -14,8 +14,8 @@ const AboutMePage = () => {
           </div>
           <EBContainer className=" text-3xl">
             <p>•
-              My name is Leo Garcia, I've been learning code for nine months and
-              in those nine months I've larned a variety of skills and frameworks
+              My name is Leo Garcia, I&apos;ve been learning code for nine months and
+              in those nine months I&apos;ve larned a variety of skills and frameworks
               from C# to Next.js.
             </p>
             <p>•

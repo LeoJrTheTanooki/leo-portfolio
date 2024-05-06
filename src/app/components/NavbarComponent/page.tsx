@@ -32,7 +32,7 @@ const NavbarComponent = () => {
             style={{ imageRendering: "pixelated" }}
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Leo's Site
+            Leo&apos;s Site
           </span>
         </Navbar.Brand>
         <Navbar.Toggle />
