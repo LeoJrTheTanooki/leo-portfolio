@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /* .flavor-wrap {
+        @apply w-fit leading-[0.954em] border-[.324em] border-transparent
+    }
+  .plain1 {
+    @apply outline outline-black outline-[0.318em] rounded-[0.1rem];
+  }
+  .plain2 {
+    @apply outline outline-gray-400 outline-[0.265em] rounded-[0.1rem];
+  }
+  .plain3 {
+    @apply outline outline-white outline-[0.212em] rounded-[0.1rem];
+  }
+  .plain4 {
+    @apply outline outline-gray-400 outline-[0.16em] rounded-[0.1rem];
+  }
+  .plain5 {
+    @apply outline outline-black outline-[0.106em] rounded-[0.1rem] pt-[0.212em] pb-[0.265em] px-[0.16em] bg-black text-white leading-[0.954em] min-w-[8.83em] max-w-[8.83em] min-h-[3.32em] max-h-[3.36em] break-words overflow-y-scroll;
+  } */
+}
+
+/*         `outline ${flavorPalette[0]} outline-[0.318em] rounded-[0.1rem]`,
+
+        `outline ${flavorPalette[1]} outline-[0.265em] rounded-[0.1rem]`,
+
+        `outline ${flavorPalette[2]} outline-[0.212em] ${flavorPalette[3]} rounded-[0.1rem]`,
+ */
+
+/*
+        outline outline-black outline-[0.318em] rounded-[0.1rem]
+      outline outline-gray-400 outline-[0.265em] rounded-[0.1rem]
+      outline outline-white outline-[0.212em] rounded-[0.1rem]
+      outline outline-gray-400 outline-[0.16em] rounded-[0.1rem]
+      outline outline-black outline-[0.106em] rounded-[0.1rem] 
+      */
+
+body {
+  background-color: #180139;
+}

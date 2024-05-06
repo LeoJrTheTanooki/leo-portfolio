@@ -8,76 +8,69 @@ const EBContainer: React.FC<any> = ({
   children,
   flavor,
   isFixed,
-  textSize,
+  className,
 }) => {
   const [flavoredBorder, setFlavoredBorder] = useState<string[]>([""]);
   const [flavorPalette, setFlavorPalette] = useState<string[]>([""]);
   const [plainBorder, setPlainBorder] = useState<string[]>([""]);
 
-  const bulletedText = React.Children.map(children, (child) => {
-    if (React.isValidElement(child) && child.type === "p") {
-      return (
-        <p>
-          <>{`•${
-            (
-              child.props as React.DetailedHTMLProps<
-                React.HTMLAttributes<HTMLParagraphElement>,
-                HTMLParagraphElement
-              >
-            ).children
-          }`}</>
-        </p>
-      );
-    } else {
-      console.log(child)
-      return <>{child}</>;
-    }
-  });
+  // const bulletedText = React.Children.map(children, (child) => {
+  //   console.log(child.props as React.DetailedHTMLProps<
+  //       React.HTMLAttributes<HTMLParagraphElement>,
+  //       HTMLParagraphElement
+  //     >)
+  //   let stringifiedChildren = (
+  //     child.props as React.DetailedHTMLProps<
+  //       React.HTMLAttributes<HTMLParagraphElement>,
+  //       HTMLParagraphElement
+  //     >
+  //   ).children;
+  //   // console.log(stringifiedChildren);
+  //   while (React.isValidElement(stringifiedChildren)) {
 
-  switch (textSize) {
-    case "xs":
-      textSize = "text-xs";
-      break;
-    case "sm":
-      textSize = "text-sm";
-      break;
-    case "base":
-      textSize = "text-base";
-      break;
-    case "lg":
-      textSize = "text-lg";
-      break;
-    case "xl":
-      textSize = "text-xl";
-      break;
-    case "2xl":
-      textSize = "text-2xl";
-      break;
-    case "3xl":
-      textSize = "text-3xl";
-      break;
-    case "4xl":
-      textSize = "text-4xl";
-      break;
-    case "5xl":
-      textSize = "text-5xl";
-      break;
-    case "6xl":
-      textSize = "text-6xl";
-      break;
-    case "7xl":
-      textSize = "text-7xl";
-      break;
-    case "8xl":
-      textSize = "text-8xl";
-      break;
-    case "9xl":
-      textSize = "text-9xl";
-      break;
-    default:
-      textSize = "";
-      break;
-  }
+  //     stringifiedChildren = (
+  //       stringifiedChildren.props as React.DetailedHTMLProps<
+  //       React.HTMLAttributes<HTMLParagraphElement>,
+  //       HTMLParagraphElement
+  //       >
+  //     ).children;
+
+  //     // if(stringifiedChildren)
+  //     // console.log(Array.isArray(stringifiedChildren))
+  //     const arrayCheck = (childParam: any) => {
+
+  //     }
+  //     arrayCheck(stringifiedChildren)
+  //     if(Array.isArray(stringifiedChildren)){
+  //       stringifiedChildren.map((e: any, index: number, array) => {
+  //         while (React.isValidElement(array[index])){
+  //           array[index] = (
+  //             array[index].props as React.DetailedHTMLProps<
+  //             React.HTMLAttributes<HTMLParagraphElement>,
+  //             HTMLParagraphElement
+  //             >
+  //           ).children;
+  //         }
+  //       })
+  //       for(let i = 0; i < stringifiedChildren.length; i++){
+  //       }
+  //     }
+
+  //   }
+  //   // console.log(stringifiedChildren);
+
+  //   const childType = child.type
+    
+  //   if (React.isValidElement(child) && child.type === "p") {
+  //     return (
+  //       <p>
+  //         <>{`•${stringifiedChildren}`}</>
+  //       </p>
+  //     );
+  //   } else {
+  //     return <>{child}</>;
+  //   }
+  // });
 
   useEffect(() => {
     let borderOrder = [
@@ -200,9 +193,9 @@ const EBContainer: React.FC<any> = ({
      */
     <>
       <div
-        className={`my-[0.583em] mx-[0.2915em] w-fit leading-[0.954em] ${
+        className={`w-fit leading-[0.954em] border-[.324em] border-transparent ${
           appleKid.className
-        }${textSize ? " " + textSize : ""}`}
+        }${className ? " " + className : ""}`}
       >
         {flavor ? (
           <div className={flavoredBorder[0]}>
@@ -218,7 +211,7 @@ const EBContainer: React.FC<any> = ({
                   }`}
                   style={{ scrollbarWidth: "none" }}
                 >
-                  {bulletedText}
+                  {children}
                 </div>
               </div>
             </div>
@@ -238,7 +231,7 @@ const EBContainer: React.FC<any> = ({
                        }`}
                     style={{ scrollbarWidth: "none" }}
                   >
-                    {bulletedText}
+                    {children}
                   </div>
                 </div>
               </div>
