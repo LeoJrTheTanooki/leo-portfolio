@@ -94,7 +94,7 @@ const NavbarComponent = () => {
                 alt="Placeholder Sprite"
                 style={{ imageRendering: "pixelated" }}
               />
-              Contact
+              Contact & Links
             </div>
           </Navbar.Link>
         </Navbar.Collapse>

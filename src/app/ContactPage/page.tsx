@@ -73,6 +73,21 @@ const ContactPage = () => {
                     •pixelbyte@workmail.com
                   </a>
                 </div>
+                <div className="flex items-center col-span-2 justify-center">
+                  {/* <img
+                    src="/EmailIcon.png"
+                    className="mr-3 w-[64px]"
+                    alt="Github Logo"
+                    style={{ imageRendering: "pixelated" }}
+                  /> */}
+                  <a
+                    href="/Resume.pdf"
+                    target="_blank"
+                    className=" text-blue-400 hover:text-yellow-300 visited:text-pink-400"
+                  >
+                    •Resume
+                  </a>
+                </div>
               </div>
             </EBContainer>
           </div>
