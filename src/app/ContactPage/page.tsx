@@ -12,9 +12,9 @@ const ContactPage = () => {
             </EBContainer>
           </div>
           <div className="justify-self-center">
-            <EBContainer className=" text-3xl">
-              <div className=" grid grid-cols-2 gap-4 items-center">
-                <div className="flex items-center">
+            <EBContainer className="text-3xl">
+              <div className=" grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+                <div className="flex flex-wrap items-center">
                   <div>
                     <img
                       src="/LinkedInLogo.png"
@@ -31,7 +31,7 @@ const ContactPage = () => {
                     •Linkedin
                   </a>
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <img
                     src="/GithubLogo.png"
                     className="mr-3 w-[64px]"
@@ -46,7 +46,7 @@ const ContactPage = () => {
                     •Github
                   </a>
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <div>
                     <img
                       src="/PhoneIcon.png"
@@ -59,7 +59,7 @@ const ContactPage = () => {
                     •1 (209) 715-4509
                   </a>
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <img
                     src="/EmailIcon.png"
                     className="mr-3 w-[64px]"
@@ -73,7 +73,7 @@ const ContactPage = () => {
                     •pixelbyte@workmail.com
                   </a>
                 </div>
-                <div className="flex items-center col-span-2 justify-center">
+                <div className="flex flex-wrap items-center sm:col-span-2 justify-center">
                   {/* <img
                     src="/EmailIcon.png"
                     className="mr-3 w-[64px]"

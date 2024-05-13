@@ -1,10 +1,16 @@
 "use client";
 import { Navbar } from "flowbite-react";
-import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+import localFont from "next/font/local";
+import { usePathname, useRouter } from "next/navigation";
+import React, { useEffect, useState } from "react";
+
+const pixelType = localFont({ src: "./Pixeltype.woff" });
+const eightBitPusab = localFont({ src: "./8-bit-pusab.woff" });
+const eightBitFortress = localFont({ src: "./8-bit fortress.woff" });
 
 const NavbarComponent = () => {
   const router = useRouter();
+  const pathname = usePathname();
   const handlePageChange = (route: string) => {
     router.push(route);
   };
@@ -12,7 +18,13 @@ const NavbarComponent = () => {
 
   return (
     <>
-      <Navbar className="bg-[#f06565] pb-0" fluid>
+      <Navbar
+        className={
+          "bg-[#9090e8] pb-0 "
+          // + pixelType.className
+        }
+        fluid
+      >
         <Navbar.Brand
           className=" cursor-pointer"
           onClick={() => {
@@ -31,21 +43,30 @@ const NavbarComponent = () => {
             alt="Leo Sprite"
             style={{ imageRendering: "pixelated" }}
           />
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          <span
+            className={
+              "self-center whitespace-nowrap text-xl font-semibold dark:text-white "
+            }
+          >
             Leo&apos;s Site
           </span>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className=" self-end">
           <Navbar.Link
+            className="navbar-link bg-teal-300 md:hover:bg-yellow-300"
             onClick={() => {
-              handlePageChange("/AboutMePage");
+              handlePageChange("/");
             }}
           >
-            <div className="cursor-pointer flex flex-col bg-teal-300 mt-2 hover:mt-0 hover:pb-2">
+            <div
+              className={`navbar-div ${
+                pathname === "/" ? "mt-0 pb-2" : "md:mt-2"
+              } ${eightBitFortress.className} text-[14px]`}
+            >
               <img
                 src="/LeoEB.gif"
-                className="w-[32px] self-center"
+                className="w-[32px] self-center mr-2 md:mr-0"
                 alt="Leo Sprite"
                 style={{ imageRendering: "pixelated" }}
               />
@@ -53,29 +74,39 @@ const NavbarComponent = () => {
             </div>
           </Navbar.Link>
           <Navbar.Link
+            className="navbar-link bg-pink-300 md:hover:bg-yellow-300"
             onClick={() => {
               handlePageChange("/ProjectsPage");
             }}
           >
-            <div className="cursor-pointer flex flex-col bg-pink-300 mt-2 hover:mt-0 hover:pb-2">
+            <div
+              className={`navbar-div ${
+                pathname === "/ProjectsPage" ? "mt-0 pb-2" : "md:mt-2"
+              } ${eightBitFortress.className} text-[14px]`}
+            >
               <img
-                src="/Placeholder.gif"
-                className="w-[32px] self-center"
-                alt="Placeholder Sprite"
+                src="/ProjectsIcon.gif"
+                className="w-[32px] self-center mr-2 md:mr-0"
+                alt="Wrench Sprite"
                 style={{ imageRendering: "pixelated" }}
               />
               Projects
             </div>
           </Navbar.Link>
           <Navbar.Link
+            className="navbar-link bg-yellow-300 md:hover:bg-yellow-300"
             onClick={() => {
               handlePageChange("/SkillsPage");
             }}
           >
-            <div className="cursor-pointer flex flex-col bg-yellow-200 mt-2 hover:mt-0 hover:pb-2">
+            <div
+              className={`navbar-div ${
+                pathname === "/SkillsPage" ? "mt-0 pb-2" : "md:mt-2"
+              } ${eightBitFortress.className} text-[14px]`}
+            >
               <img
                 src="/Placeholder.gif"
-                className="w-[32px] self-center"
+                className="w-[32px] self-center mr-2 md:mr-0"
                 alt="Placeholder Sprite"
                 style={{ imageRendering: "pixelated" }}
               />
@@ -83,18 +114,23 @@ const NavbarComponent = () => {
             </div>
           </Navbar.Link>
           <Navbar.Link
+            className="navbar-link bg-amber-300 md:hover:bg-amber-300"
             onClick={() => {
               handlePageChange("/ContactPage");
             }}
           >
-            <div className="cursor-pointer flex flex-col bg-amber-400 mt-2 hover:mt-0 hover:pb-2">
+            <div
+              className={`navbar-div ${
+                pathname === "/ContactPage" ? "mt-0 pb-2" : "md:mt-2"
+              } ${eightBitFortress.className} text-[14px]`}
+            >
               <img
                 src="/Placeholder.gif"
-                className="w-[32px] self-center"
+                className="w-[32px] self-center mr-2 md:mr-0"
                 alt="Placeholder Sprite"
                 style={{ imageRendering: "pixelated" }}
               />
-              Contact & Links
+              Contact
             </div>
           </Navbar.Link>
         </Navbar.Collapse>

@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 @layer components {
-    /* .flavor-wrap {
+  .navbar-div {
+    @apply text-center flex md:flex-col md:w-28 pt-1 items-center hover:mt-0 hover:md:pb-2;
+  }
+
+  .navbar-link {
+    @apply cursor-pointer md:rounded-t-lg;
+  }
+
+  /* .flavor-wrap {
         @apply w-fit leading-[0.954em] border-[.324em] border-transparent
     }
   .plain1 {
