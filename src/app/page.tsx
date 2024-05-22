@@ -8,7 +8,7 @@ export default function Home() {
   const [transition, setTransition] = useState<boolean>(false);
 
   return (
-    // <div className=" bg-[#9090e8] flex justify-center min-h-[80vh]">
+    // <div className=" bg-[#9090e8] flex justify-center min-h-[66vh]">
     //   <div className="block">
     //     <div className="flex m-4 gap-4">
     //       <div>
@@ -51,7 +51,7 @@ export default function Home() {
     //     <></>
     //   )}
     // </div>
-    <div className=" bg-teal-300 flex justify-center min-h-[80vh]">
+    <div className=" bg-teal-300 flex justify-center min-h-[66vh]">
     <div className="block">
       <div className="flex flex-wrap m-4 gap-4">
         <div className=" sm:w-full ">

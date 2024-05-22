@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import EBContainer from "../components/EBContainer/EBContainer";
 
 const ContactPage = () => {
   return (
-    <div className=" bg-amber-400 flex justify-center min-h-[80vh]">
+    <div className=" bg-amber-400 flex justify-center min-h-[66vh]">
       <div className="block">
         <div className="grid m-4 gap-4">
           <div className="justify-self-center">
@@ -14,23 +15,6 @@ const ContactPage = () => {
           <div className="justify-self-center">
             <EBContainer className="text-3xl">
               <div className=" grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-                <div className="flex flex-wrap items-center">
-                  <div>
-                    <img
-                      src="/LinkedInLogo.png"
-                      className="mr-3 w-[64px]"
-                      alt="Leo Suit Sprite"
-                      style={{ imageRendering: "pixelated" }}
-                    />
-                  </div>
-                  <a
-                    href="https://www.linkedin.com/in/leonardo-garcia-92ab062bb/"
-                    target="_blank"
-                    className="text-blue-400 hover:text-yellow-300 visited:text-pink-400 content-center"
-                  >
-                    •Linkedin
-                  </a>
-                </div>
                 <div className="flex flex-wrap items-center">
                   <img
                     src="/GithubLogo.png"
@@ -49,14 +33,35 @@ const ContactPage = () => {
                 <div className="flex flex-wrap items-center">
                   <div>
                     <img
-                      src="/PhoneIcon.png"
+                      src="/ResumeIcon.png"
                       className="mr-3 w-[64px]"
                       alt="Phone Sprite"
                       style={{ imageRendering: "pixelated" }}
                     />
                   </div>
-                  <a href="tel:+12097154509" className=" text-blue-400 hover:text-yellow-300 visited:text-pink-400">
-                    •1 (209) 715-4509
+                  <a
+                    href="/Resume.pdf"
+                    target="_blank"
+                    className=" text-blue-400 hover:text-yellow-300 visited:text-pink-400"
+                  >
+                    •Resume
+                  </a>
+                </div>
+                <div className="flex flex-wrap items-center">
+                  <div>
+                    <img
+                      src="/LinkedInLogo.png"
+                      className="mr-3 w-[64px]"
+                      alt="Leo Suit Sprite"
+                      style={{ imageRendering: "pixelated" }}
+                    />
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/leonardo-garcia-92ab062bb/"
+                    target="_blank"
+                    className="text-blue-400 hover:text-yellow-300 visited:text-pink-400 content-center"
+                  >
+                    •Linkedin
                   </a>
                 </div>
                 <div className="flex flex-wrap items-center">
@@ -80,13 +85,6 @@ const ContactPage = () => {
                     alt="Github Logo"
                     style={{ imageRendering: "pixelated" }}
                   /> */}
-                  <a
-                    href="/Resume.pdf"
-                    target="_blank"
-                    className=" text-blue-400 hover:text-yellow-300 visited:text-pink-400"
-                  >
-                    •Resume
-                  </a>
                 </div>
               </div>
             </EBContainer>

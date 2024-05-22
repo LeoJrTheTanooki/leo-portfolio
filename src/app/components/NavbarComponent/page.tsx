@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import { Navbar } from "flowbite-react";
 import localFont from "next/font/local";
@@ -18,15 +19,9 @@ const NavbarComponent = () => {
 
   return (
     <>
-      <Navbar
-        className={
-          "bg-[#9090e8] pb-0 "
-          // + pixelType.className
-        }
-        fluid
-      >
+      <Navbar className={"bg-[#9090e8] pb-0 "} fluid>
         <Navbar.Brand
-          className=" cursor-pointer"
+          className={"cursor-pointer " + eightBitPusab.className}
           onClick={() => {
             handlePageChange("/");
           }}
@@ -54,7 +49,7 @@ const NavbarComponent = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className=" self-end">
           <Navbar.Link
-            className="navbar-link bg-teal-300 md:hover:bg-yellow-300"
+            className="navbar-link bg-teal-300 md:hover:bg-teal-300"
             onClick={() => {
               handlePageChange("/");
             }}
@@ -74,7 +69,7 @@ const NavbarComponent = () => {
             </div>
           </Navbar.Link>
           <Navbar.Link
-            className="navbar-link bg-pink-300 md:hover:bg-yellow-300"
+            className="navbar-link bg-pink-300 md:hover:bg-pink-300"
             onClick={() => {
               handlePageChange("/ProjectsPage");
             }}
@@ -94,7 +89,7 @@ const NavbarComponent = () => {
             </div>
           </Navbar.Link>
           <Navbar.Link
-            className="navbar-link bg-yellow-300 md:hover:bg-yellow-300"
+            className="navbar-link bg-yellow-200 md:hover:bg-yellow-200"
             onClick={() => {
               handlePageChange("/SkillsPage");
             }}
@@ -114,7 +109,7 @@ const NavbarComponent = () => {
             </div>
           </Navbar.Link>
           <Navbar.Link
-            className="navbar-link bg-amber-300 md:hover:bg-amber-300"
+            className="navbar-link bg-amber-400 md:hover:bg-amber-400"
             onClick={() => {
               handlePageChange("/ContactPage");
             }}

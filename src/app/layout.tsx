@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavbarComponent from "./components/NavbarComponent/page";
 import localFont from "next/dist/compiled/@next/font/dist/local";
+import FooterComponent from "./components/FooterComponent/page";
 
 const inter = Inter({ subsets: ["latin"] });
 // const pixeltype = localFont({ src: './Pixeltype.ttf' })
@@ -26,6 +27,7 @@ export default function RootLayout({
         <div className=" bg-white max-w-7xl w-screen">
           <NavbarComponent />
           {children}
+          <FooterComponent />
         </div>
       </body>
     </html>

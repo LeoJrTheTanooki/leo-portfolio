@@ -3,7 +3,7 @@ import EBContainer from "../components/EBContainer/EBContainer";
 
 const ProjectsPage = () => {
   return (
-    <div className=" bg-pink-300 flex justify-center min-h-[80vh]">
+    <div className=" bg-pink-300 flex justify-center min-h-[66vh]">
       <div className="block">
         <div className="grid grid-cols-2 m-4 gap-4">
           <div className=" col-span-2">

@@ -60,7 +60,7 @@ const EBContainer: React.FC<any> = ({
   //   // console.log(stringifiedChildren);
 
   //   const childType = child.type
-    
+
   //   if (React.isValidElement(child) && child.type === "p") {
   //     return (
   //       <p>
@@ -85,7 +85,7 @@ const EBContainer: React.FC<any> = ({
       (navigator.userAgent.indexOf("Opera") ||
         navigator.userAgent.indexOf("OPR")) != -1
     ) {
-      // Needs Testing
+      borderOrder.reverse();
     } else if (navigator.userAgent.indexOf("Firefox") != -1) {
       // Pass by default
     } else if (navigator.userAgent.indexOf("Edg") != -1) {
@@ -194,6 +194,7 @@ const EBContainer: React.FC<any> = ({
     <>
       <div
         className={`w-fit leading-[0.954em] border-[.324em] border-transparent ${
+          // className={`w-fit leading-[0.954em] border-[.589em] border-transparent ${
           appleKid.className
         }${className ? " " + className : ""}`}
       >
