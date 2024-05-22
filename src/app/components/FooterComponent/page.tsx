@@ -19,7 +19,7 @@ const FooterComponent = () => {
                 />
               </p>
               <p>HP 200</p>
-              <p>HP 200</p>
+              <p>PP 200</p>
             </EBHealth>
           </a>
           <a href="/Resume.pdf" target="_blank">
@@ -35,7 +35,7 @@ const FooterComponent = () => {
                 />
               </p>
               <p>HP 200</p>
-              <p>HP 200</p>
+              <p>PP 200</p>
             </EBHealth>
           </a>
       </div>
@@ -72,7 +72,7 @@ const FooterComponent = () => {
                 />
               </p>
               <p>HP 200</p>
-              <p>HP 200</p>
+              <p>PP 200</p>
             </EBHealth>
           </a>
       </div>
