@@ -141,12 +141,17 @@ const EBHealth: React.FC<any> = ({ children, flavor, isFixed, className }) => {
                 <div
                   className={`
                       ${plainBorder[4]}
-                        bg-black text-white leading-[0.954em] flex flex-col w-28${
-                         isFixed
-                           ? " min-w-[8.83em] max-w-[8.83em] min-h-[3.32em] max-h-[3.36em] break-words overflow-y-scroll"
-                           : ""
-                       }`}
-                  style={{ scrollbarWidth: "none", backgroundImage: 'url(/HealthGrid.png)', backgroundSize:'32px', imageRendering: "pixelated" }}
+                        bg-black text-white leading-[0.954em] flex flex-col w-32${
+                          isFixed
+                            ? " min-w-[8.83em] max-w-[8.83em] min-h-[3.32em] max-h-[3.36em] break-words overflow-y-scroll"
+                            : ""
+                        }`}
+                  style={{
+                    scrollbarWidth: "none",
+                    backgroundImage: "url(/HealthGrid.png)",
+                    backgroundSize: "32px",
+                    imageRendering: "pixelated",
+                  }}
                 >
                   {children}
                 </div>
