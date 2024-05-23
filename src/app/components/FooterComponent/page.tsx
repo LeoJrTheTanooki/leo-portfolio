@@ -8,7 +8,6 @@ import localFont from "next/font/local";
     bitcell: https://www.dafont.com/search.php?q=bitcell
     smb3: https://www.dafont.com/search.php?q=mario+3
     battleName: https://forum.starmen.net/forum/Fan/Forum/BattleName-Font
-
 */
 const bitcell = localFont({ src: "./fonts/bitcell_memesbruh03.woff" });
 
