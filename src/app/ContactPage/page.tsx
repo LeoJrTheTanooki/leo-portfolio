@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import EBContainer from "../components/EBContainer/EBContainer";
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 
 const ContactPage = () => {
   return (
