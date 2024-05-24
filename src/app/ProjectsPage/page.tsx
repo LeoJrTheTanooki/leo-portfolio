@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import EBContainer from "../components/EBContainer/EBContainer";
+import Image from "next/image";
 
 const ProjectsPage = () => {
   return (
@@ -21,7 +21,7 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   TBWeather
-                  <img src="/tbweather.png" alt="" />
+                  <Image height={220} width={350} src="/tbweather.png" alt="" />
                 </a>
                 <div>
                   Utilities Leveraged
@@ -55,7 +55,7 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   All-For-One
-                  <img src="/all-for-one.png" alt="" />
+                  <Image height={220} width={350} src="/all-for-one.png" alt="" />
                 </a>
                 <div>
                   Utilities Leveraged
@@ -80,7 +80,7 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   Rock Paper Scissors Lizard Spock
-                  <img src="/rpsclsp.png" alt="" />
+                  <Image height={220} width={350} src="/rpsclsp.png" alt="" />
                 </a>
                 <div>
                   Utilities Leveraged
@@ -105,7 +105,7 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   Capsulepedia
-                  <img src="/capsulepedia.png" alt="" />
+                  <Image height={220} width={350} src="/capsulepedia.png" alt="" />
                 </a>
                 <div>
                   Utilities Leveraged
@@ -116,6 +116,29 @@ const ProjectsPage = () => {
                 </div>
               </div>
               <p className=" mt-1">A site that uses an API to allow users to either search for or use a random button to get any Pokemon up to Generation 5.</p>
+            </EBContainer>
+          </div>
+          <div>
+            <EBContainer className="text-3xl" fullHeight>
+              <div className="flex gap-2">
+                <a
+                  href="https://localinezation.vercel.app/"
+                  target="_blank"
+                  className="link-class content-center w-3/5"
+                >
+                  LocaLINEzation
+                  <Image height={220} width={350} src="/localinezation.png" alt="" />
+                </a>
+                <div>
+                  Utilities Leveraged
+                  <ul>
+                    <li>&#8226;Next.js</li>
+                    <li>&#8226;Azure</li>
+                    <li>&#8226;Teamwork</li>
+                  </ul>
+                </div>
+              </div>
+              <p className=" mt-1">Full stack site designed for foreign fans.</p>
             </EBContainer>
           </div>
         </div>

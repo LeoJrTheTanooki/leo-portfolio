@@ -16,7 +16,7 @@
   }
 
   .link-class {
-    @apply text-blue-400 hover:text-yellow-300 visited:text-pink-400
+    @apply text-blue-400 hover:text-yellow-300 visited:text-pink-400 hover:cursor-pointer
   }
 
   /* .flavor-wrap {

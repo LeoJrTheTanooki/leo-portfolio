@@ -100,7 +100,7 @@ const NavbarComponent = () => {
               } ${eightBitFortress.className} text-[14px]`}
             >
               <img
-                src="/Placeholder.gif"
+                src="/SkillsIcon.gif"
                 className="w-[32px] self-center mr-2 md:mr-0"
                 alt="Placeholder Sprite"
                 style={{ imageRendering: "pixelated" }}
@@ -120,7 +120,7 @@ const NavbarComponent = () => {
               } ${eightBitFortress.className} text-[14px]`}
             >
               <img
-                src="/Placeholder.gif"
+                src="/ContactIcon.gif"
                 className="w-[32px] self-center mr-2 md:mr-0"
                 alt="Placeholder Sprite"
                 style={{ imageRendering: "pixelated" }}
