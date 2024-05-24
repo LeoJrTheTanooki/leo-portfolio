@@ -8,38 +8,41 @@ export default function Home() {
   const [transition, setTransition] = useState<boolean>(false);
 
   return (
-    <div className=" bg-teal-300 flex justify-center min-h-[66vh]">
-      <div className="block">
-        <div className="flex flex-wrap m-4 gap-4">
-          <div className=" w-full">
-            <EBContainer className=" text-3xl" flavor="mint">
-              <p>•About Me</p>
+    <div className="bg-teal-300 flex justify-center min-h-[66vh]">
+      <div className="block w-full h-full">
+        <div className="flex flex-wrap m-4 mb-0 gap-4">
+          <div className="w-full">
+            <EBContainer className="text-3xl" flavor="mint">
+              <p>&#8226;About Me</p>
             </EBContainer>
-          </div>{" "}
+          </div>
+          {""}
           <div
             className="w-full bg-cover"
-            style={{ backgroundImage: "url(/TrippyBg.gif)" }}
+            style={{
+              backgroundImage: "url(/TrippyBg.gif)",
+              imageRendering: "pixelated",
+              backgroundPosition: "center",
+            }}
           >
-            <div className=" p-1 bg-black flex justify-center">
-              <EBContainer className=" text-3xl md:w-4/5 min-w-min">
+            <div className="p-2 pb-4 bg-black flex justify-center w-full">
+              <EBContainer className="text-3xl md:w-4/5 min-w-min">
+                <p>&#8226;My name is Leo Garcia, I&apos;ve been taught a lot about web development for nine months.</p>
                 <p>
-                  • My name is Leo Garcia, I&apos;ve been learning code for nine
-                  months and in those nine months I&apos;ve larned a variety of
-                  skills and frameworks from C# to Next.js.
-                </p>
-                <p>
-                  • In my free time I like to either code or make pixel art. The
-                  containers being components I made from scratch, and the icons
-                  used on the site being examples of what I do.
+                  &#8226;In my free time I like to either code or make pixel
+                  art. The containers being components I made from scratch, and
+                  the icons used on the site being examples of what I do.
                 </p>
               </EBContainer>
             </div>
-            <div className=" flex justify-center py-10">
+            <div className="flex justify-center py-10">
               <img
                 src="/LeoBattle.png"
                 alt=""
-                className=" w-[96px]"
+                // Multiply original width by 3
+                className="w-[192px]"
                 style={{ imageRendering: "pixelated" }}
+                title="Name: Leo Garcia"
               />
             </div>
           </div>

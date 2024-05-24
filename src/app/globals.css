@@ -15,6 +15,10 @@
     @apply border-2 border-r-0 border-black text-black pl-[3px] min-w-[17px] bg-gradient-to-t from-[#98a080] to-white to-40%;
   }
 
+  .link-class {
+    @apply text-blue-400 hover:text-yellow-300 visited:text-pink-400
+  }
+
   /* .flavor-wrap {
         @apply w-fit leading-[0.954em] border-[.324em] border-transparent
     }

@@ -24,7 +24,7 @@ export default function RootLayout({
       <link rel="icon" href="/SiteIcon.png" sizes="any" />
       </head>
       <body className={`${inter.className} grid justify-center p-10`}>
-        <div className=" bg-white max-w-7xl w-screen">
+        <div className="bg-white max-w-7xl w-screen">
           <NavbarComponent />
           {children}
           <FooterComponent />

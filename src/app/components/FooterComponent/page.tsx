@@ -9,6 +9,8 @@ import localFont from "next/font/local";
     smb3: https://www.dafont.com/search.php?q=mario+3
     battleName: https://forum.starmen.net/forum/Fan/Forum/BattleName-Font
 */
+
+// Make it more clear that the footer links are clickable
 const bitcell = localFont({ src: "./fonts/bitcell_memesbruh03.woff" });
 
 const smb3 = localFont({ src: "./fonts/Super-Mario-Bros--3.woff" });
@@ -35,7 +37,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>HP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}>5</div>
                 <div className={`health-wheel ${bitcell.className}`}>6</div>
                 <div className={`health-wheel ${bitcell.className}`}>3</div>
@@ -43,7 +45,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>PP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}>2</div>
                 <div className={`health-wheel ${bitcell.className}`}>6</div>
                 <div className={`health-wheel ${bitcell.className}`}>4</div>
@@ -67,7 +69,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>HP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}>1</div>
                 <div className={`health-wheel ${bitcell.className}`}>8</div>
                 <div className={`health-wheel ${bitcell.className}`}>4</div>
@@ -75,7 +77,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>PP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}>1</div>
                 <div className={`health-wheel ${bitcell.className}`}>6</div>
                 <div className={`health-wheel ${bitcell.className}`}>3</div>
@@ -104,7 +106,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>HP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}>3</div>
                 <div className={`health-wheel ${bitcell.className}`}>1</div>
                 <div className={`health-wheel ${bitcell.className}`}>7</div>
@@ -112,7 +114,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>PP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}></div>
                 <div className={`health-wheel ${bitcell.className}`}></div>
                 <div className={`health-wheel ${bitcell.className}`}>0</div>
@@ -136,7 +138,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>HP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}>2</div>
                 <div className={`health-wheel ${bitcell.className}`}>1</div>
                 <div className={`health-wheel ${bitcell.className}`}>2</div>
@@ -144,7 +146,7 @@ const FooterComponent = () => {
             </div>
             <div className="text-end flex justify-end">
               <div className={`text-[16px] ${smb3.className}`}>PP </div>
-              <div className=" flex text-center">
+              <div className="flex text-center">
                 <div className={`health-wheel ${bitcell.className}`}>1</div>
                 <div className={`health-wheel ${bitcell.className}`}>3</div>
                 <div className={`health-wheel ${bitcell.className}`}>7</div>

@@ -47,7 +47,7 @@ const NavbarComponent = () => {
           </span>
         </Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse className=" self-end">
+        <Navbar.Collapse className="self-end">
           <Navbar.Link
             className="navbar-link bg-teal-300 md:hover:bg-teal-300"
             onClick={() => {

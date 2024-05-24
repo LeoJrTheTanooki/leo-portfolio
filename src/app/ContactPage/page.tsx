@@ -1,20 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import EBContainer from "../components/EBContainer/EBContainer";
+import ContactForm from "../components/ContactForm";
 
 const ContactPage = () => {
   return (
-    <div className=" bg-amber-400 flex justify-center min-h-[66vh]">
+    <div className="bg-amber-400 flex justify-center min-h-[66vh]">
       <div className="block">
         <div className="grid m-4 gap-4">
           <div className="justify-self-center">
-            <EBContainer className=" text-3xl" flavor="peanut">
-              <p>•Contact and Links</p>
+            <EBContainer className="text-3xl" flavor="peanut">
+              <p>&#8226;Contact and Links</p>
             </EBContainer>
           </div>
           <div className="justify-self-center">
             <EBContainer className="text-3xl">
-              <div className=" grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div className="flex flex-wrap items-center">
                   <img
                     src="/GithubLogo.png"
@@ -25,9 +26,9 @@ const ContactPage = () => {
                   <a
                     href="https://github.com/LeoJrTheTanooki"
                     target="_blank"
-                    className=" text-blue-400 hover:text-yellow-300 visited:text-pink-400"
+                    className="text-blue-400 hover:text-yellow-300 visited:text-pink-400"
                   >
-                    •Github
+                    &#8226;Github
                   </a>
                 </div>
                 <div className="flex flex-wrap items-center">
@@ -42,9 +43,9 @@ const ContactPage = () => {
                   <a
                     href="/Resume.pdf"
                     target="_blank"
-                    className=" text-blue-400 hover:text-yellow-300 visited:text-pink-400"
+                    className="text-blue-400 hover:text-yellow-300 visited:text-pink-400"
                   >
-                    •Resume
+                    &#8226;Resume
                   </a>
                 </div>
                 <div className="flex flex-wrap items-center">
@@ -61,7 +62,7 @@ const ContactPage = () => {
                     target="_blank"
                     className="text-blue-400 hover:text-yellow-300 visited:text-pink-400 content-center"
                   >
-                    •Linkedin
+                    &#8226;Linkedin
                   </a>
                 </div>
                 <div className="flex flex-wrap items-center">
@@ -73,9 +74,9 @@ const ContactPage = () => {
                   />
                   <a
                     href="mailto:pixelbyte@workmail.com"
-                    className=" text-blue-400 hover:text-yellow-300 visited:text-pink-400"
+                    className="text-blue-400 hover:text-yellow-300 visited:text-pink-400"
                   >
-                    •pixelbyte@workmail.com
+                    &#8226;pixelbyte@workmail.com
                   </a>
                 </div>
                 <div className="flex flex-wrap items-center sm:col-span-2 justify-center">
@@ -88,6 +89,7 @@ const ContactPage = () => {
                 </div>
               </div>
             </EBContainer>
+            {/* <ContactForm/> */}
           </div>
         </div>
       </div>
