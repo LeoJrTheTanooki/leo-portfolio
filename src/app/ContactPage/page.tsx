@@ -9,12 +9,12 @@ const ContactPage = () => {
       <div className="block">
         <div className="grid m-4 gap-4">
           <div className="justify-self-center">
-            <EBContainer className="text-3xl" flavor="peanut">
+            <EBContainer className="text-[32px]" flavor="peanut">
               <p>&#8226;Contact and Links</p>
             </EBContainer>
           </div>
           <div className="justify-self-center">
-            <EBContainer className="text-3xl">
+            <EBContainer className="text-[32px]">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div className="flex flex-wrap items-center">
                   <img

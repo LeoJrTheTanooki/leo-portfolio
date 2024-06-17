@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import Image from "next/image";
 import EBContainer from "./components/EBContainer/EBContainer";
@@ -12,7 +13,7 @@ export default function Home() {
       <div className="block w-full h-full">
         <div className="flex flex-wrap m-4 mb-0 gap-4">
           <div className="w-full">
-            <EBContainer className="text-3xl" flavor="mint">
+            <EBContainer className="text-[32px]" flavor="mint">
               <p>&#8226;About Me</p>
             </EBContainer>
           </div>
@@ -26,7 +27,7 @@ export default function Home() {
             }}
           >
             <div className="p-2 pb-4 bg-black flex justify-center w-full">
-              <EBContainer className="text-3xl md:w-4/5 min-w-min">
+              <EBContainer className="text-[32px] md:w-4/5 min-w-min">
                 <p>&#8226;My name is Leo Garcia, I&apos;ve been taught a lot about web development for nine months.</p>
                 <p>
                   &#8226;In my free time I like to either code or make pixel

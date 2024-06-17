@@ -9,6 +9,7 @@ const EBContainer: React.FC<any> = ({
   flavor,
   fixed,
   fullHeight,
+  fullWidth,
   className,
 }) => {
   const [flavoredBorder, setFlavoredBorder] = useState<string[]>([""]);
@@ -197,12 +198,12 @@ const EBContainer: React.FC<any> = ({
         className={`w-fit leading-[0.954em] border-[.324em] border-transparent ${
           // className={`w-fit leading-[0.954em] border-[.589em] border-transparent ${
           appleKid.className
-        }${className ? " " + className : ""}${fullHeight ? " h-full" : ""}`}
+        }${className ? " " + className : ""}${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}
       >
         {flavor ? (
-          <div className={`${flavoredBorder[0]}${fullHeight ? " h-full" : ""}`}>
+          <div className={`${flavoredBorder[0]}${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}>
             <div
-              className={`${flavoredBorder[1]}${fullHeight ? " h-full" : ""}`}
+              className={`${flavoredBorder[1]}${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}
             >
               <div
                 className={`${flavoredBorder[2]}${
@@ -216,7 +217,7 @@ const EBContainer: React.FC<any> = ({
                     fixed
                       ? " min-w-[8.5em] max-w-[8.5em] min-h-[3em] max-h-[3em] break-words overflow-y-scroll"
                       : ""
-                  }${fullHeight ? " h-full" : ""}`}
+                  }${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}
                   style={{ scrollbarWidth: "none" }}
                 >
                   {children}
@@ -225,13 +226,13 @@ const EBContainer: React.FC<any> = ({
             </div>
           </div>
         ) : (
-          <div className={`${plainBorder[0]}${fullHeight ? " h-full" : ""}`}>
-            <div className={`${plainBorder[1]}${fullHeight ? " h-full" : ""}`}>
+          <div className={`${plainBorder[0]}${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}>
+            <div className={`${plainBorder[1]}${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}>
               <div
-                className={`${plainBorder[2]}${fullHeight ? " h-full" : ""}`}
+                className={`${plainBorder[2]}${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}
               >
                 <div
-                  className={`${plainBorder[3]}${fullHeight ? " h-full" : ""}`}
+                  className={`${plainBorder[3]}${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}
                 >
                   <div
                     className={`
@@ -240,7 +241,7 @@ const EBContainer: React.FC<any> = ({
                          fixed
                            ? " min-w-[8.83em] max-w-[8.83em] min-h-[3.32em] max-h-[3.36em] break-words overflow-y-scroll"
                            : ""
-                       }${fullHeight ? " h-full" : ""}`}
+                       }${fullHeight ? " h-full" : ""}${fullWidth ? " w-full" : ""}`}
                     style={{ scrollbarWidth: "none" }}
                   >
                     {children}

@@ -8,12 +8,12 @@ const ProjectsPage = () => {
       <div className="block">
         <div className="grid md:grid-cols-2 m-4 gap-4">
           <div className="md:col-span-2">
-            <EBContainer flavor="strawberry" className="text-3xl">
+            <EBContainer flavor="strawberry" className="text-[32px]">
               &#8226;Projects
             </EBContainer>
           </div>
           <div>
-            <EBContainer className="text-3xl" fullHeight>
+            <EBContainer className="text-[32px]" fullHeight fullWidth>
               <div className="flex gap-2">
                 <a
                   href="https://tbweather.vercel.app/"
@@ -26,8 +26,26 @@ const ProjectsPage = () => {
                 <div>
                   Utilities Leveraged
                   <ul>
-                    <li>&#8226;OpenWeatherMap&apos;s API</li>
-                    <li>&#8226;Next.js</li>
+                    <li>
+                      <a
+                        href="https://openweathermap.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="link-class"
+                      >
+                        &#8226;OpenWeatherMap&apos;s API
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://nextjs.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="link-class"
+                      >
+                        &#8226;Next.js
+                      </a>
+                    </li>
                     <li>
                       <a
                         href="https://kyr0.github.io/nes-ui-react/"
@@ -47,7 +65,7 @@ const ProjectsPage = () => {
             </EBContainer>
           </div>
           <div>
-            <EBContainer className="text-3xl" fullHeight>
+            <EBContainer className="text-[32px]" fullHeight fullWidth>
               <div className="flex gap-2">
                 <a
                   href="https://all-for-one-six.vercel.app/index.html"
@@ -55,7 +73,12 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   All-For-One
-                  <Image height={220} width={350} src="/all-for-one.png" alt="" />
+                  <Image
+                    height={220}
+                    width={350}
+                    src="/all-for-one.png"
+                    alt=""
+                  />
                 </a>
                 <div>
                   Utilities Leveraged
@@ -72,32 +95,41 @@ const ProjectsPage = () => {
               </p>
             </EBContainer>
           </div>
-            <EBContainer className="text-3xl" fullHeight>
-              <div className="flex gap-2">
-                <a
-                  href="https://rpsclsp-psi.vercel.app/"
-                  target="_blank"
-                  className="link-class content-center w-3/5"
-                >
-                  Rock Paper Scissors Lizard Spock
-                  <Image height={220} width={350} src="/rpsclsp.png" alt="" />
-                </a>
-                <div>
-                  Utilities Leveraged
-                  <ul>
-                    <li>&#8226;Bootstrap</li>
-                    <li>&#8226;NES.css</li>
-                    <li>&#8226;Javascript</li>
-                  </ul>
-                </div>
+          <EBContainer className="text-[32px]" fullHeight fullWidth>
+            <div className="flex gap-2">
+              <a
+                href="https://rpsclsp-psi.vercel.app/"
+                target="_blank"
+                className="link-class content-center w-3/5"
+              >
+                Rock Paper Scissors Lizard Spock
+                <Image height={220} width={350} src="/rpsclsp.png" alt="" />
+              </a>
+              <div>
+                Utilities Leveraged
+                <ul>
+                  <li>&#8226;Bootstrap</li>
+                  <li>
+                    <a
+                      href="https://nostalgic-css.github.io/NES.css/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-class"
+                    >
+                      &#8226;NES.css
+                    </a>
+                  </li>
+                  <li>&#8226;Javascript</li>
+                </ul>
               </div>
-              <p className=" mt-1">
-                A site that uses logic comparisons and provides win and lose
-                conditions.
-              </p>
-            </EBContainer>
+            </div>
+            <p className=" mt-1">
+              A site that uses logic comparisons and provides win and lose
+              conditions.
+            </p>
+          </EBContainer>
           <div>
-            <EBContainer className="text-3xl" fullHeight>
+            <EBContainer className="text-[32px]" fullHeight fullWidth>
               <div className="flex gap-2">
                 <a
                   href="https://capsulepedia.vercel.app/"
@@ -105,21 +137,37 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   Capsulepedia
-                  <Image height={220} width={350} src="/capsulepedia.png" alt="" />
+                  <Image
+                    height={220}
+                    width={350}
+                    src="/capsulepedia.png"
+                    alt=""
+                  />
                 </a>
                 <div>
                   Utilities Leveraged
                   <ul>
                     <li>&#8226;Tailwind</li>
-                    <li>&#8226;PokeAPI</li>
+                    <li>
+                      <a
+                        href="https://pokeapi.co/"
+                        target="_blank"
+                        className="link-class"
+                      >
+                        &#8226;PokeAPI
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
-              <p className=" mt-1">A site that uses an API to allow users to either search for or use a random button to get any Pokemon up to Generation 5.</p>
+              <p className=" mt-1">
+                A site that uses an API to allow users to either search for or
+                use a random button to get any Pokemon up to Generation 5.
+              </p>
             </EBContainer>
           </div>
           <div>
-            <EBContainer className="text-3xl" fullHeight>
+            <EBContainer className="text-[32px]" fullHeight fullWidth>
               <div className="flex gap-2">
                 <a
                   href="https://localinezation.vercel.app/"
@@ -127,7 +175,12 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   LocaLINEzation
-                  <Image height={220} width={350} src="/localinezation.png" alt="" />
+                  <Image
+                    height={220}
+                    width={350}
+                    src="/localinezation.png"
+                    alt=""
+                  />
                 </a>
                 <div>
                   Utilities Leveraged
@@ -138,7 +191,10 @@ const ProjectsPage = () => {
                   </ul>
                 </div>
               </div>
-              <p className=" mt-1">Full stack site designed for foreign fans.</p>
+              <p className=" mt-1">
+                Full stack site designed for fans of foreign media to
+                collaborate on translating their favorite media.
+              </p>
             </EBContainer>
           </div>
         </div>

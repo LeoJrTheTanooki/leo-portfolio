@@ -26,13 +26,13 @@ const SkillsPage = () => {
       <div className="block">
         <div className="grid m-4 gap-4">
           <div className="justify-self-center">
-            <EBContainer flavor="banana" className="text-3xl">
+            <EBContainer flavor="banana" className="text-[32px]">
               <p>&#8226;Skills</p>
             </EBContainer>
           </div>
           <div className="justify-self-center">
             <div className="flex flex-wrap ">
-              <EBContainer className=" text-3xl">
+              <EBContainer className=" text-[32px]">
                 <ul>
                   <li
                     className=" link-class"
@@ -76,7 +76,7 @@ const SkillsPage = () => {
                   </li>
                 </ul>
               </EBContainer>
-              <EBContainer className=" text-3xl">
+              <EBContainer className=" text-[32px]">
                 <div className="w-80">
                   {languageActive ||
                   frameworksActive ||
@@ -85,7 +85,7 @@ const SkillsPage = () => {
                   enginesActive ? (
                     ""
                   ) : (
-                    <>&nbsp;</>
+                    <>&#8226;Pick a category</>
                   )}
                   <ul
                     className={`grid grid-cols-2 ${
