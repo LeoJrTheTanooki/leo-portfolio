@@ -33,7 +33,7 @@ const ProjectsPage = () => {
                         rel="noopener noreferrer"
                         className="link-class"
                       >
-                        &#8226;OpenWeatherMap&apos;s API
+                        &#8226;OpenWeatherMap&rsquo;s API
                       </a>
                     </li>
                     <li>

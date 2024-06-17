@@ -28,11 +28,17 @@ export default function Home() {
           >
             <div className="p-2 pb-4 bg-black flex justify-center w-full">
               <EBContainer className="text-[32px] md:w-4/5 min-w-min">
-                <p>&#8226;My name is Leo Garcia, I&apos;ve been taught a lot about web development for nine months.</p>
                 <p>
-                  &#8226;In my free time I like to either code or make pixel
-                  art. The containers being components I made from scratch, and
-                  the icons used on the site being examples of what I do.
+                  &#8226;My name is Leo Garcia, I&rsquo;ve studied and learned a
+                  lot about web development for nine months. Currently
+                  I&rsquo;;m attending an internship for CodeStack as a junior
+                  web developer.
+                </p>
+                <p>
+                  &#8226;In my free time I like to code and make pixel art, for
+                  example the icons used here were mosty made by me. The
+                  containers here were also created using CSS and made into
+                  React components.
                 </p>
               </EBContainer>
             </div>

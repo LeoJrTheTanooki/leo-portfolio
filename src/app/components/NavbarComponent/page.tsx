@@ -43,7 +43,7 @@ const NavbarComponent = () => {
               "self-center whitespace-nowrap text-xl font-semibold dark:text-white "
             }
           >
-            Leo&apos;s Site
+            Leo&rsquo;s Site
           </span>
         </Navbar.Brand>
         <Navbar.Toggle />
