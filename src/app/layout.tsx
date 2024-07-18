@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Leo's Portfolio",
   description: "A website portfolio to show who Leo is",
+  icons: {
+    icon: "/SiteIcon.png"
+  }
 };
 
 export default function RootLayout({
