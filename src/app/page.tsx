@@ -30,8 +30,8 @@ export default function Home() {
               <EBContainer className="text-[32px] md:w-4/5 min-w-min">
                 <p>
                   &#8226;My name is Leo Garcia, I&rsquo;ve studied and learned a
-                  lot about web development for nine months. Currently
-                  I&rsquo;;m attending an internship for CodeStack as a junior
+                  lot about web development for ten months. Currently
+                  I&rsquo;m attending an internship for CodeStack as a junior
                   web developer.
                 </p>
                 <p>
