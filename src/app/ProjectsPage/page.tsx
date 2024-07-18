@@ -21,7 +21,7 @@ const ProjectsPage = () => {
                   className="link-class content-center w-3/5"
                 >
                   TBWeather
-                  <Image height={220} width={350} src="/tbweather.png" alt="" />
+                  <Image height={220} width={350} src="/tbweather.png" alt="TBweather screencap" />
                 </a>
                 <div>
                   Utilities Leveraged
@@ -59,7 +59,7 @@ const ProjectsPage = () => {
                 </div>
               </div>
               <p className=" mt-1">
-                A site that utlizes a weather API and allows users to search a
+                Short for ThrowBack Weather. A site that utlizes a weather API and allows users to search a
                 location to find the weather and forecast of said location.
               </p>
             </EBContainer>
@@ -77,7 +77,7 @@ const ProjectsPage = () => {
                     height={220}
                     width={350}
                     src="/all-for-one.png"
-                    alt=""
+                    alt="All-For-One screencap"
                   />
                 </a>
                 <div>
@@ -103,7 +103,7 @@ const ProjectsPage = () => {
                 className="link-class content-center w-3/5"
               >
                 Rock Paper Scissors Lizard Spock
-                <Image height={220} width={350} src="/rpsclsp.png" alt="" />
+                <Image height={220} width={350} src="/rpsclsp.png" alt="Rock Paper Scissors Lizard Spock screencap" />
               </a>
               <div>
                 Utilities Leveraged
@@ -141,7 +141,7 @@ const ProjectsPage = () => {
                     height={220}
                     width={350}
                     src="/capsulepedia.png"
-                    alt=""
+                    alt="Capsulepedia screencap"
                   />
                 </a>
                 <div>
@@ -179,7 +179,7 @@ const ProjectsPage = () => {
                     height={220}
                     width={350}
                     src="/localinezation.png"
-                    alt=""
+                    alt="LocaLINEzation screencap"
                   />
                 </a>
                 <div>
@@ -194,6 +194,37 @@ const ProjectsPage = () => {
               <p className=" mt-1">
                 Full stack site designed for fans of foreign media to
                 collaborate on translating their favorite media.
+              </p>
+            </EBContainer>
+          </div>
+          <div>
+            <EBContainer className="text-[32px]" fullHeight fullWidth>
+              <div className="flex gap-2">
+                <a
+                  href="https://leojrthetanooki.itch.io/neon-tank-survivor/"
+                  target="_blank"
+                  className="link-class content-center w-3/5"
+                >
+                  Neon Tank Survivor
+                  <Image
+                    height={220}
+                    width={350}
+                    src="/neon-tank-survivor.png"
+                    alt="Neon Tank Survivor screencap"
+                  />
+                </a>
+                <div>
+                  Utilities Leveraged
+                  <ul>
+                    <li>&#8226;Godot</li>
+                    <li>&#8226;GDScript</li>
+                    <li>&#8226;Aseprite</li>
+                    <li>&#8226;OpenGameArt</li>
+                  </ul>
+                </div>
+              </div>
+              <p className=" mt-1">
+                A top down game where you control a tank trying to avoid bullets made using Godot based on its documentation. Works on mobile devices too thanks to Godot Multidirectional Joystick by JstnJrg.
               </p>
             </EBContainer>
           </div>

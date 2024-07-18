@@ -388,7 +388,7 @@ const SkillsPage = () => {
               <img
                 src="/LeoComputer.gif"
                 className=" w-[96px]"
-                alt=""
+                alt="Sprite of Leo on computer based on EarthBound overworld sprites"
                 style={{ imageRendering: "pixelated" }}
               />
             </div>

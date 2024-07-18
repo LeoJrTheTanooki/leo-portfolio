@@ -45,7 +45,7 @@ export default function Home() {
             <div className="flex justify-center py-10">
               <img
                 src="/LeoBattle.png"
-                alt=""
+                alt="Sprite of Leo Garcia based on EarthBound's battle sprites"
                 // Multiply original width by 3
                 className="w-[192px]"
                 style={{ imageRendering: "pixelated" }}
