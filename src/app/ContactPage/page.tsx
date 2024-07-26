@@ -18,7 +18,7 @@ const ContactPage = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div className="flex flex-wrap items-center">
                   <img
-                    src="/skill-icons/GithubLogo.png"
+                    src="/GithubLogo.png"
                     className="mr-3 w-[64px]"
                     alt="Github Logo"
                     style={{ imageRendering: "pixelated" }}
