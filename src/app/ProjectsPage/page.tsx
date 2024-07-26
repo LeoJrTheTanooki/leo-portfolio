@@ -195,6 +195,8 @@ const ProjectsPage = () => {
                 Full stack site designed for fans of foreign media to
                 collaborate on translating their favorite media.
               </p>
+              <br />
+              <p className=" text-red-500">SITE&rsquo;S BACKEND IS CURRENTLY UNDER MAINTENANCE; DATA RECEIVES BUT DOESN&rsquo;T POST</p>
             </EBContainer>
           </div>
           <div>

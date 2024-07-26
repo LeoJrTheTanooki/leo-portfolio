@@ -94,7 +94,7 @@ const SkillsPage = () => {
                   >
                     <li className="flex">
                       <img
-                        src="/SkillsIcon1.png"
+                        src="/skill-icons/JavascriptIcon.png"
                         title="Javascript"
                         alt="Javascript"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -105,7 +105,7 @@ const SkillsPage = () => {
                     <li className="flex">
                       {" "}
                       <img
-                        src="/SkillsIcon2.png"
+                        src="/skill-icons/TypescriptIcon.png"
                         title="Typescript"
                         alt="Typescript"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -116,7 +116,7 @@ const SkillsPage = () => {
                     <li className="flex">
                       {" "}
                       <img
-                        src="/SkillsIcon3.png"
+                        src="/skill-icons/HTML5Icon.png"
                         title="HTML5"
                         alt="HTML5"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -127,7 +127,7 @@ const SkillsPage = () => {
                     <li className="flex">
                       {" "}
                       <img
-                        src="/SkillsIcon4.png"
+                        src="/skill-icons/CSSIcon.png"
                         title="CSS"
                         alt="CSS"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -138,13 +138,35 @@ const SkillsPage = () => {
                     <li className="flex">
                       {" "}
                       <img
-                        src="/SkillsIcon5.png"
+                        src="/skill-icons/CSharpIcon.png"
                         title="C#"
                         alt="C#"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
                         style={{ imageRendering: "pixelated" }}
                       />{" "}
                       C#
+                    </li>
+                    <li className="flex">
+                      {" "}
+                      <img
+                        src="/skill-icons/CPlusPlusIcon.png"
+                        title="C++"
+                        alt="C++"
+                        className="h-[32px] w-[32px] max-h-[32px] mr-1"
+                        style={{ imageRendering: "pixelated" }}
+                      />{" "}
+                      C++
+                    </li>
+                    <li className="flex">
+                      {" "}
+                      <img
+                        src="/skill-icons/GDScriptIcon.png"
+                        title="GDScript"
+                        alt="GDScript"
+                        className="h-[32px] w-[32px] max-h-[32px] mr-1"
+                        style={{ imageRendering: "pixelated" }}
+                      />{" "}
+                      GDScript
                     </li>
                   </ul>
                   <ul
@@ -154,7 +176,7 @@ const SkillsPage = () => {
                   >
                     <li className="flex">
                       <img
-                        src="/SkillsIcon6.png"
+                        src="/skill-icons/NextjsIcon.png"
                         title="Next.js"
                         alt="Next.js"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -164,7 +186,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon9.png"
+                        src="/skill-icons/ReactIcon.png"
                         title="React"
                         alt="React"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -174,7 +196,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon24.png"
+                        src="/skill-icons/TailwindIcon.png"
                         title="Tailwind"
                         alt="Tailwind"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -184,7 +206,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon14.png"
+                        src="/skill-icons/BootstrapIcon.png"
                         title="Bootstrap"
                         alt="Bootstrap"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -200,7 +222,7 @@ const SkillsPage = () => {
                   >
                     <li className="flex">
                       <img
-                        src="/SkillsIcon7.png"
+                        src="/skill-icons/FigmaIcon.png"
                         title="Figma"
                         alt="Figma"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -210,7 +232,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon11.png"
+                        src="/skill-icons/PostmanIcon.png"
                         title="Postman"
                         alt="Postman"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -220,7 +242,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon15.png"
+                        src="/skill-icons/AsepriteIcon.png"
                         title="Aseprite"
                         alt="Aseprite"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -230,7 +252,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon16.png"
+                        src="/skill-icons/PhotoshopIcon.png"
                         title="Photoshop"
                         alt="Photoshop"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -240,7 +262,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon17.png"
+                        src="/skill-icons/InkscapeIcon.png"
                         title="Inkscape"
                         alt="Inkscape"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -250,7 +272,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon19.png"
+                        src="/skill-icons/NodejsIcon.png"
                         title="Node.js"
                         alt="Node.js"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -260,7 +282,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon18.png"
+                        src="/skill-icons/VSCodeIcon.png"
                         title="Visual Studio Code"
                         alt="Visual Studio Code"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -276,7 +298,7 @@ const SkillsPage = () => {
                   >
                     <li className="flex">
                       <img
-                        src="/SkillsIcon8.png"
+                        src="/skill-icons/SlackIcon.png"
                         title="Slack"
                         alt="Slack"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -286,7 +308,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon10.png"
+                        src="/skill-icons/VercelIcon.png"
                         title="Vercel"
                         alt="Vercel"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -296,7 +318,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/GithubLogo.png"
+                        src="/GitHubLogo.png"
                         title="GitHub"
                         alt="GitHub"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -306,7 +328,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon13.png"
+                        src="/skill-icons/AzureIcon.png"
                         title="Microsoft Azure"
                         alt="Microsoft Azure"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -316,13 +338,23 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon21.png"
+                        src="/skill-icons/JiraIcon.png"
                         title="Jira"
                         alt="Jira"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
                         style={{ imageRendering: "pixelated" }}
                       />
                       Jira
+                    </li>
+                    <li className="flex">
+                      <img
+                        src="/skill-icons/DevOpsIcon.png"
+                        title="Azure DevOps"
+                        alt="Azure DevOps"
+                        className="h-[32px] w-[32px] max-h-[32px] mr-1"
+                        style={{ imageRendering: "pixelated" }}
+                      />
+                      DevOps
                     </li>
                   </ul>
                   <ul
@@ -332,7 +364,17 @@ const SkillsPage = () => {
                   >
                     <li className="flex">
                       <img
-                        src="/SkillsIcon20.png"
+                        src="/skill-icons/GodotIcon.png"
+                        title="Godot"
+                        alt="Godot"
+                        className="h-[32px] w-[32px] max-h-[32px] mr-1"
+                        style={{ imageRendering: "pixelated" }}
+                      />
+                      Godot
+                    </li>
+                    <li className="flex">
+                      <img
+                        src="/skill-icons/UnityIcon.png"
                         title="Unity"
                         alt="Unity"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -342,7 +384,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon23.png"
+                        src="/skill-icons/UnrealIcon.png"
                         title="Unreal Engine"
                         alt="Unreal Engine"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -352,7 +394,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon26.png"
+                        src="/skill-icons/HammerIcon.png"
                         title="Valve Hammer Editor"
                         alt="Valve Hammer Editor"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -362,7 +404,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon25.png"
+                        src="/skill-icons/Cube2Icon.png"
                         title="Cube 2: Sauerbraten"
                         alt="Cube 2: Sauerbraten"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
@@ -372,7 +414,7 @@ const SkillsPage = () => {
                     </li>
                     <li className="flex">
                       <img
-                        src="/SkillsIcon22.png"
+                        src="/skill-icons/GBStudioIcon.png"
                         title="GB Studio"
                         alt="GB Studio"
                         className="h-[32px] w-[32px] max-h-[32px] mr-1"
