@@ -7,6 +7,8 @@ import { useState } from "react";
 
 export default function Home() {
   const [transition, setTransition] = useState<boolean>(false);
+  const currentMonth =  new Date().getMonth();
+  console.log(currentMonth)
 
   return (
     <div className="bg-teal-300 flex justify-center min-h-[66vh]">
@@ -21,7 +23,7 @@ export default function Home() {
           <div
             className="w-full bg-cover"
             style={{
-              backgroundImage: "url(/TrippyBg.gif)",
+              backgroundImage: currentMonth == 9 ? "url(/GiygasByArtisticMan99.gif)" : "url(/TrippyBg.gif)",
               imageRendering: "pixelated",
               backgroundPosition: "center",
             }}
@@ -44,7 +46,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center py-10">
               <img
-                src="/LeoBattle.png"
+                src={currentMonth == 9 ? "/LeoRage.png" : "/LeoBattle.png"}
                 alt="Sprite of Leo Garcia based on EarthBound's battle sprites"
                 // Multiply original width by 3
                 className="w-[192px]"
