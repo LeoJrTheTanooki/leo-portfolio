@@ -28,9 +28,9 @@ const FooterComponent = () => {
             >
               <p className="pb-2">GitHub</p>
               <img
-                src="/GithubLogo.png"
-                title="Github"
-                alt="Github"
+                src="/GitHubLogo.png"
+                title="GitHub"
+                alt="GitHub"
                 className="h-[32px] w-[32px] max-h-[32px] justify-self-end"
                 style={{ imageRendering: "pixelated" }}
               />
