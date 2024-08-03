@@ -91,7 +91,7 @@ const EBContainer: React.FC<any> = ({
     } else if (navigator.userAgent.indexOf("Firefox") != -1) {
       // Pass by default
     } else if (navigator.userAgent.indexOf("Edg") != -1) {
-      // Needs Testing
+      borderOrder.reverse();
     } else if (navigator.userAgent.indexOf("Chrome") != -1) {
       borderOrder.reverse();
     } else if (navigator.userAgent.indexOf("Safari") != -1) {
@@ -179,12 +179,12 @@ const EBContainer: React.FC<any> = ({
       } else if (navigator.userAgent.indexOf("Firefox") != -1) {
         // Pass by default
       } else if (navigator.userAgent.indexOf("Edg") != -1) {
-        // Needs Testing
+        borderArray.reverse();
       } else if (navigator.userAgent.indexOf("Chrome") != -1) {
         borderArray.reverse();
         // Needs Testing
       } else if (navigator.userAgent.indexOf("Safari") != -1) {
-        // Needs Testing
+        borderArray.reverse();
       }
       setFlavoredBorder(borderArray);
     }

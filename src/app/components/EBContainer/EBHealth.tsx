@@ -26,7 +26,7 @@ const EBHealth: React.FC<any> = ({ children, flavor, isFixed, className }) => {
     } else if (navigator.userAgent.indexOf("Firefox") != -1) {
       // Pass by default
     } else if (navigator.userAgent.indexOf("Edg") != -1) {
-      // Needs Testing
+      borderOrder.reverse();
     } else if (navigator.userAgent.indexOf("Chrome") != -1) {
       borderOrder.reverse();
     } else if (navigator.userAgent.indexOf("Safari") != -1) {
