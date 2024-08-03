@@ -95,7 +95,7 @@ const EBContainer: React.FC<any> = ({
     } else if (navigator.userAgent.indexOf("Chrome") != -1) {
       borderOrder.reverse();
     } else if (navigator.userAgent.indexOf("Safari") != -1) {
-      // Needs Testing
+      borderOrder.reverse();
     }
     setPlainBorder(borderOrder);
   }, []);
