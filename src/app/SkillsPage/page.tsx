@@ -93,8 +93,7 @@ const SkillsPage = () => {
                   toolsActive ||
                   servicesActive ||
                   enginesActive ||
-                  certificatesActive
-                  ? (
+                  certificatesActive ? (
                     ""
                   ) : (
                     <>&#8226;Pick a category</>
@@ -435,13 +434,13 @@ const SkillsPage = () => {
                       GB Studio
                     </li>
                   </ul>
-                  <ul
-                    className={` ${
-                      certificatesActive ? "" : "hidden"
-                    }`}
-                  >
+                  <ul className={` ${certificatesActive ? "" : "hidden"}`}>
                     <li>
-                      <a href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/65f0ff88f4fc58e0536b3b51648dff24" target="blank" className="link-class flex">
+                      <a
+                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/65f0ff88f4fc58e0536b3b51648dff24"
+                        target="blank"
+                        className="link-class flex"
+                      >
                         <img
                           src="/skill-icons/CSharpIcon.png"
                           title="C#"
@@ -453,7 +452,11 @@ const SkillsPage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/b74a2390dfc4127fa5d43fe147425ad0" target="blank" className="link-class flex">
+                      <a
+                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/b74a2390dfc4127fa5d43fe147425ad0"
+                        target="blank"
+                        className="link-class flex"
+                      >
                         <img
                           src="/skill-icons/CPlusPlusIcon.png"
                           title="C++"
@@ -465,7 +468,11 @@ const SkillsPage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/1bf3e70ae92b43c2a3add66cbfaec661" target="blank" className="link-class flex">
+                      <a
+                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/1bf3e70ae92b43c2a3add66cbfaec661"
+                        target="blank"
+                        className="link-class flex"
+                      >
                         <img
                           src="/skill-icons/ReactIcon.png"
                           title="React"
@@ -477,7 +484,11 @@ const SkillsPage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/705dcb15de0da4dd9d9fc4f3274b430e" target="blank" className="link-class flex">
+                      <a
+                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
+                        target="blank"
+                        className="link-class flex"
+                      >
                         <img
                           src="/skill-icons/JavaScriptIcon.png"
                           title="JavaScript"
@@ -489,7 +500,11 @@ const SkillsPage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/512386fdc7f6c934f98b01e6afa8285a" target="blank" className="link-class flex">
+                      <a
+                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/512386fdc7f6c934f98b01e6afa8285a"
+                        target="blank"
+                        className="link-class flex"
+                      >
                         <img
                           src="/skill-icons/JavaScriptIcon.png"
                           title="JavaScript"
@@ -501,7 +516,11 @@ const SkillsPage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/9da84567e8ff414b91f0b23d917fb42f" target="blank" className="link-class flex">
+                      <a
+                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/9da84567e8ff414b91f0b23d917fb42f"
+                        target="blank"
+                        className="link-class flex"
+                      >
                         <img
                           src="/skill-icons/CSSIcon.png"
                           title="CSS"
@@ -513,7 +532,11 @@ const SkillsPage = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="blank" className="link-class flex">
+                      <a
+                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7"
+                        target="blank"
+                        className="link-class flex"
+                      >
                         <img
                           src="/skill-icons/HTML5Icon.png"
                           title="HTML5"
