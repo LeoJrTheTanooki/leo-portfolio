@@ -16,64 +16,6 @@ const EBContainer: React.FC<any> = ({
   const [flavorPalette, setFlavorPalette] = useState<string[]>([""]);
   const [plainBorder, setPlainBorder] = useState<string[]>([""]);
 
-  // const bulletedText = React.Children.map(children, (child) => {
-  //   console.log(child.props as React.DetailedHTMLProps<
-  //       React.HTMLAttributes<HTMLParagraphElement>,
-  //       HTMLParagraphElement
-  //     >)
-  //   let stringifiedChildren = (
-  //     child.props as React.DetailedHTMLProps<
-  //       React.HTMLAttributes<HTMLParagraphElement>,
-  //       HTMLParagraphElement
-  //     >
-  //   ).children;
-  //   // console.log(stringifiedChildren);
-  //   while (React.isValidElement(stringifiedChildren)) {
-
-  //     stringifiedChildren = (
-  //       stringifiedChildren.props as React.DetailedHTMLProps<
-  //       React.HTMLAttributes<HTMLParagraphElement>,
-  //       HTMLParagraphElement
-  //       >
-  //     ).children;
-
-  //     // if(stringifiedChildren)
-  //     // console.log(Array.isArray(stringifiedChildren))
-  //     const arrayCheck = (childParam: any) => {
-
-  //     }
-  //     arrayCheck(stringifiedChildren)
-  //     if(Array.isArray(stringifiedChildren)){
-  //       stringifiedChildren.map((e: any, index: number, array) => {
-  //         while (React.isValidElement(array[index])){
-  //           array[index] = (
-  //             array[index].props as React.DetailedHTMLProps<
-  //             React.HTMLAttributes<HTMLParagraphElement>,
-  //             HTMLParagraphElement
-  //             >
-  //           ).children;
-  //         }
-  //       })
-  //       for(let i = 0; i < stringifiedChildren.length; i++){
-  //       }
-  //     }
-
-  //   }
-  //   // console.log(stringifiedChildren);
-
-  //   const childType = child.type
-
-  //   if (React.isValidElement(child) && child.type === "p") {
-  //     return (
-  //       <p>
-  //         <>{`&#8226;${stringifiedChildren}`}</>
-  //       </p>
-  //     );
-  //   } else {
-  //     return <>{child}</>;
-  //   }
-  // });
-
   useEffect(() => {
     let borderOrder = [
       "outline outline-black outline-[0.318em] rounded-[0.1rem]",

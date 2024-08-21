@@ -34,7 +34,11 @@ export class Preloader extends Scene
 
         this.load.image('logo', 'logo.png');
         this.load.image('star', 'star.png');
-        this.load.image('leo', 'leo.gif');
+        // this.load.image('leo', 'leo.gif');
+        this.load.image('home-tiles', 'tilesets/MyRoomTileset.png');
+        this.load.tilemapTiledJSON('map', 'tilesets/MyRoom.json');
+        this.load.spritesheet('leo', 'spritesheets/LeoSheet.png', {frameWidth: 16, frameHeight: 24});
+        this.load.aseprite('leo-ase', 'spritesheets/aseprite/LeoEBSheet.png', 'spritesheets/aseprite/LeoEBSheet.json');
     }
 
     create ()
