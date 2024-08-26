@@ -437,7 +437,7 @@ const SkillsPage = () => {
                   <ul className={` ${certificatesActive ? "" : "hidden"}`}>
                     <li>
                       <a
-                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/65f0ff88f4fc58e0536b3b51648dff24"
+                        href="/GarciaL_CSharpCertificate.pdf"
                         target="blank"
                         className="link-class flex"
                       >
@@ -453,7 +453,7 @@ const SkillsPage = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/b74a2390dfc4127fa5d43fe147425ad0"
+                        href="/GarciaL_CppCertificate.pdf"
                         target="blank"
                         className="link-class flex"
                       >
@@ -469,7 +469,7 @@ const SkillsPage = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/1bf3e70ae92b43c2a3add66cbfaec661"
+                        href="/GarciaL_ReactCertificate.pdf"
                         target="blank"
                         className="link-class flex"
                       >
@@ -485,7 +485,7 @@ const SkillsPage = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
+                        href="/GarciaL_JavascriptCertificate.pdf"
                         target="blank"
                         className="link-class flex"
                       >
@@ -501,7 +501,7 @@ const SkillsPage = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/512386fdc7f6c934f98b01e6afa8285a"
+                        href="/GarciaL_IntermediateJavascriptCertificate.pdf"
                         target="blank"
                         className="link-class flex"
                       >
@@ -517,7 +517,7 @@ const SkillsPage = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/9da84567e8ff414b91f0b23d917fb42f"
+                        href="/GarciaL_CSSCertificate.pdf"
                         target="blank"
                         className="link-class flex"
                       >
@@ -533,7 +533,7 @@ const SkillsPage = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.codecademy.com/profiles/LeoJrTheTanooki/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7"
+                        href="/GarciaL_HTMLCertificate.pdf"
                         target="blank"
                         className="link-class flex"
                       >

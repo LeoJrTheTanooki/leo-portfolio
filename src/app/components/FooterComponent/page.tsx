@@ -53,7 +53,7 @@ const FooterComponent = () => {
             </div>
           </EBHealth>
         </a>
-        <a href="/Resume.pdf" target="_blank">
+        <a href="/GarciaL_Resume.pdf" target="_blank">
           <EBHealth className="text-[32px] hover:border-t-0 hover:cursor-pointer">
             <div
               className={`bg-purple-800 flex justify-between items-center ${battleName.className}`}
