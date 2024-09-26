@@ -36,7 +36,7 @@ const ContactPage = () => {
                     <img
                       src="/ResumeIcon.png"
                       className="mr-3 w-[64px]"
-                      alt="Phone Sprite"
+                      alt="Resume Sprite"
                       style={{ imageRendering: "pixelated" }}
                     />
                   </div>
