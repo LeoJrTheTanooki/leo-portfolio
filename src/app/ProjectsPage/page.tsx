@@ -93,6 +93,8 @@ const ProjectsPage = () => {
                 A site that utlizes a custom made API made using .NET and C#,
                 and was deployed using Microsoft Azure
               </p>
+              <br />
+              <p className=" text-red-500">SITE&rsquo;S BACKEND IS CURRENTLY UNDER MAINTENANCE; DATA FAILING TO RECEIVE</p>
             </EBContainer>
           </div>
           <EBContainer className="text-[32px]" fullHeight fullWidth>
@@ -127,6 +129,8 @@ const ProjectsPage = () => {
               A site that uses logic comparisons and provides win and lose
               conditions.
             </p>
+              <br />
+              <p className=" text-red-500">SITE&rsquo;S BACKEND IS CURRENTLY UNDER MAINTENANCE; DATA FAILING TO RECEIVE</p>
           </EBContainer>
           <div>
             <EBContainer className="text-[32px]" fullHeight fullWidth>
@@ -227,6 +231,36 @@ const ProjectsPage = () => {
               </div>
               <p className=" mt-1">
                 A top down game where you control a tank trying to avoid bullets made using Godot based on its documentation. Works on mobile devices too thanks to Godot Multidirectional Joystick by JstnJrg.
+              </p>
+            </EBContainer>
+          </div>
+          <div>
+            <EBContainer className="text-[32px]" fullHeight fullWidth>
+              <div className="flex gap-2">
+                <a
+                  href="https://www.kaygekoding.com/"
+                  target="_blank"
+                  className="link-class content-center w-3/5"
+                >
+                  KAYGE Koding
+                  <Image
+                    height={220}
+                    width={350}
+                    src="/kaygekoding.png"
+                    alt="KAYGE Koding screencap"
+                  />
+                </a>
+                <div>
+                  Utilities Leveraged
+                  <ul>
+                    <li>&#8226;Squarespace</li>
+                    <li>&#8226;HTML</li>
+                    <li>&#8226;CSS</li>
+                  </ul>
+                </div>
+              </div>
+              <p className=" mt-1">
+                A website designed to promote KAYGE Koding and their services to anyone that needs it. I came up with the tagline &quot;Awaken Your Inner Power&quot;.
               </p>
             </EBContainer>
           </div>

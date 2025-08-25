@@ -301,6 +301,16 @@ const SkillsPage = () => {
                       />
                       VS Code
                     </li>
+                    <li className="flex">
+                      <img
+                        src="/skill-icons/SquarespaceIcon.png"
+                        title="Visual Studio Code"
+                        alt="Visual Studio Code"
+                        className="h-[32px] w-[32px] max-h-[32px] mr-1"
+                        style={{ imageRendering: "pixelated" }}
+                      />
+                      Squarespace
+                    </li>
                   </ul>
                   <ul
                     className={`grid grid-cols-2 ${
