@@ -7,8 +7,8 @@ import { useState } from "react";
 
 export default function Home() {
   const [transition, setTransition] = useState<boolean>(false);
-  const currentMonth =  new Date().getMonth();
-  console.log(currentMonth)
+  const currentMonth = new Date().getMonth();
+  console.log(currentMonth);
 
   return (
     <div className="bg-teal-300 flex justify-center min-h-[66vh]">
@@ -23,7 +23,10 @@ export default function Home() {
           <div
             className="w-full bg-cover"
             style={{
-              backgroundImage: currentMonth == 9 ? "url(/GiygasByArtisticMan99.gif)" : "url(/TrippyBg.gif)",
+              backgroundImage:
+                currentMonth == 9
+                  ? "url(/GiygasByArtisticMan99.gif)"
+                  : "url(/TrippyBg.gif)",
               imageRendering: "pixelated",
               backgroundPosition: "center",
             }}
@@ -31,16 +34,28 @@ export default function Home() {
             <div className="p-2 pb-4 bg-black flex justify-center w-full">
               <EBContainer className="text-[32px] md:w-4/5 min-w-min">
                 <p>
-                  &#8226;My name is Leo Garcia, I&rsquo;ve studied and learned a
-                  lot about web development for ten months. Currently
-                  I&rsquo;m attending an internship for CodeStack as a junior
-                  web developer.
+                  &#8226;My name is Leo Garcia, I&rsquo;m someone who is
+                  incredibly fascinated and passionate about technology. So much
+                  so that I decided to put all my time and energy into CodeStack
+                  Academy to get a deeper understanding into how everything
+                  works. I was taught by the academy for nine months and was put
+                  into an internship directly with them for three more months
+                  before graduating fully from the academy. Now I&rsquo;m
+                  currently helping to start up a new comapny called KAYGE
+                  Koding, with a dream to not only make sites for clients, but
+                  to also teach people young and old on how to code themselves.
                 </p>
                 <p>
-                  &#8226;In my free time I like to code and make pixel art, for
-                  example the icons used here were mosty made by me. The
-                  containers here were also created using CSS and made into
-                  React components.
+                  &#8226;In my free time I like to code, make pixel art, and
+                  learn new computer hobbies with new software from subtitling
+                  to low poly modeling, to making custom scripts for niche
+                  use-cases. A lot of the assets and components used here were
+                  custom made by me, from the pixel art to the CSS (With help
+                  from Tailwind to make my life with styling easier). Frequently
+                  I can get lost in my work trying to make it the best it can
+                  be, learning the ins and outs of the tools I&rsquo;m working
+                  with, but I feel it&rsquo;s those traits that makes me a
+                  valuable asset to any employer.
                 </p>
               </EBContainer>
             </div>
